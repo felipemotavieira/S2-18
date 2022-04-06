@@ -1,0 +1,91 @@
+.background {
+    background-color: #000000;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 229px;
+    height: 68px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.title{
+    size: 32;
+    color: aliceblue;
+
+}
+
+.container-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border:#000000 2px solid;
+    }
+
+figure:hover{
+    border: white solid  2px ;  
+}
+
+.imgs{
+    max-width: 160px;
+    max-height: 160px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.imgs:hover{
+    transition: 1s;
+    transform: scale(1.3)
+}
+
+figcaption{
+    color: #9C9C9C;
+    margin-top: 20px
+}
+
+.ger{
+    width: 206px;
+    border: solid 1,5px #FFFFFF;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.ger:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
+
